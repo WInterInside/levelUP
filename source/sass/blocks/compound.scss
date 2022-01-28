@@ -64,10 +64,13 @@
     @media (max-width: 810px) {
       text-align: right;
     }
+
+    @media (max-width: 530px) {
+      margin-top: 30px;
+    }
   }
 
   @media (max-width: 510px) {
-    padding-left: 30px;
     text-align: left;
   }
 }
@@ -115,10 +118,6 @@
 
     @media (max-width: 810px) {
       padding: 30px 100px 30px 30px;
-    }
-
-    @media (max-width: 530px) {
-      margin-top: 30px;
     }
 
     &::before {
