@@ -1,0 +1,20 @@
+.reviews {
+  position: relative;
+  z-index: 1000;
+  padding: 150px 0;
+  background-color: rgb(52,48,48);
+  background: linear-gradient(0deg, rgba(52,48,48,1) 0%, rgba(208,208,208,1) 100%);
+
+
+  @media (max-width: 810px) {
+    padding: 100px 0;
+  }
+
+  @media (max-width: 510px) {
+    padding: 50px 0;
+  }
+}
+
+.reviews cite {
+  margin: 20px 0;
+}
